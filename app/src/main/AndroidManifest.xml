@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Android_Streaming_Security_Library"
         tools:targetApi="31">
         <activity
+            android:name=".ContentAccessControlExample"
+            android:exported="false" />
+        <activity
             android:name=".DigitalRIghtsManagement"
             android:exported="true">
             <intent-filter>
